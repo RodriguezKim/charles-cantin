@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light">
             <!--RAJOUTER LIEN PAGE D'ACCUEIL A LA PLACE DU DIEZE-->
-            <div class="container">
+            <div class="container-fluid">
             <a href="#" 
                class="navbar-brand mb-0 h1">
                <img class="d-inline-block align-top "src="logoCantin.png" width ="80" height="80"/>
@@ -21,34 +22,32 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link active">Accueil</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Galerie</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Tarifs et prestations</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link active">Accueil</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Galerie</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Tarifs et prestations</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div> 
-         </div>     
+         </div>  
         </nav>
-
-    
-
-    <main class ="container-fluid">
-    
+    </header>
+    <main>
+        <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+          <h1>Charles Cantin - Photographe</h1>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
     </main>
-    <footer>
-        
-    </footer>
     <script type="text/javascript" src="bootstrap.min.js"></script>
-    <!--AJOUTER TA PAGE JS-->
+    <!--AJOUTER TA PAGE JS--> 
 </body>
-
 </html>
