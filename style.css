@@ -1,4 +1,32 @@
 body{
     background-image: url(home-page-desktop.jpg);
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
+
+.btn-custom{
+    background-color: #ffebcc;
+    border:solid, 0.8px;
+}
+
+/*TAILLE H1 NON RESPONSIVE, CHERCHER AUTRE SOLUTION*/
+h1{
+    font-size: 4em;
+}
+
+/* PAGE GALERIE CODE POUR IMAGE DE FOND 
+    backdrop-filter: blur(5px);
+}
+*/
+
+/*PAGE TARIFS*/
+
+article{
+    border-radius: 3%;
+    border: solid;
+    backdrop-filter: blur(5px);
+    padding: 3px;
+
+}
+
+/*PAGE CONTACT*/
