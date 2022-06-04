@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light">
+        <nav class="navbar navbar-expand-sm navbar-light">
             <div class="container-fluid">
             <a href="index.html" 
                class="navbar-brand mb-0 h1">
@@ -41,7 +41,30 @@
         </nav>
     </header>
     <main>
-
+            <div class="full-form">
+                <div class="contact-wrapper">
+                    <form class="form-horizontal" method="post" action="contact.php">
+                      <p class="section-header">Merci de remplir le formulaire ci-dessous pour être contacté par notre secrétariat. </p>
+                  
+                       <label for="name">Nom</label>
+                        <input type="text" id="name" placeholder="Nom" name="name" required>
+           
+                        <label for="firstName">Prénom</label>
+                        <input type="text" id="firstName" placeholder="Prénom" name="firstName" required>
+                          
+                       <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="email@mail.com" name="email" required>
+                          
+                       <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" placeholder="0600000000" name="phone">
+                  
+                       <label for="message">Message</label>
+                        <textarea rows="10" id="message" placeholder="Votre message, ici !" name="message" required></textarea>
+                
+                          <button class="send-button" id="submit" type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>     
     </main>
 </body>
 </html>
