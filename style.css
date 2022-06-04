@@ -28,6 +28,11 @@ h1{
 }
 */
 
+.dropdown{
+    padding: 20px;
+    float:right;
+}
+
 /*PAGE TARIFS*/
 
 .all-prestations{
@@ -101,6 +106,8 @@ form {
     box-shadow: 0px 0px 36px -7px rgba(171,171,171,1);
     border-radius: 20px;
     margin-bottom: 2rem;
+    box-sizing: initial;
+    backdrop-filter: blur(6px);
   }
 
 .contact-wrapper {
